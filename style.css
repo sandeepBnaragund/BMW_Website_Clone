@@ -1,0 +1,736 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    
+font-family: 'Ubuntu', sans-serif;
+}
+
+section {
+    /* background-image: url(./images/827062.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  */
+    height: 112vh;
+    
+}
+
+.vid {
+    position: absolute;
+    right: 0;
+   
+    bottom: -80px;
+    z-index: -1;
+    
+}
+
+nav {
+    height: 80px;
+
+    display: flex;
+
+}
+
+#bmwlogo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: 106px;
+
+
+}
+
+.nav_child {
+
+    height: 100%;
+    width: 71%;
+    display: flex;
+    position: relative;
+    left: 138px;
+    color: white;
+   /* border: 1px solid black; */
+
+}
+
+
+.logo {
+
+    position: relative;
+    left: 124.2px;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#logo1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo3 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_child {
+
+    width: 33.3%;
+    height: 100%;
+    position: relative;
+    top: 2px;
+
+
+}
+
+.logo_child:hover {
+    border-bottom: 4px solid #0066B1;
+
+}
+
+.list {
+    width: 8%;
+    height: 100%;
+    /* border: 1px solid black; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+
+}
+
+a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+#btnshop1,
+#btnshop2,
+#btnshop3 {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.list:hover {
+    border-bottom: 5px solid #0066B1;
+}
+
+#list3 {
+    width: 11%;
+}
+
+#list4 {
+    width: 15%;
+}
+
+#lsit5 {
+    width: 11%;
+    
+}
+
+.continer {
+    height: 98.5vh;
+    width: 85.5%;
+    border-top: 1px solid white;
+    position: relative;
+    left: 107px;
+    top: 5px;
+}
+
+#plesure {
+    display: inline;
+    position: relative;
+
+    top: 15px;
+
+    font-size: large;
+    color: white;
+}
+
+.bottom_home {
+    height: 240px;
+
+    position: relative;
+    top: 498px;
+    color: white;
+
+}
+
+#new {
+    position: relative;
+    top: 10px;
+    font-weight: 100;
+
+}
+
+#bmw {
+    position: relative;
+    font-weight: 100;
+    top: 5px;
+    font-size: 70px;
+}
+
+#craft {
+    position: relative;
+
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.buttons {
+
+    height: 90px;
+    width: 430px;
+    position: relative;
+    right: 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#btn2 {
+    border: 1px solid white;
+}
+
+#btn1 {
+    background-color: #1c69d4;
+    color: white;
+}
+
+#btn1:hover {
+    background-color: #0653B6;
+
+}
+
+#btn2 {
+    color: white;
+}
+
+#btn2:hover {
+    box-shadow: 0px 0px 4px white;
+}
+
+.shopping-tools {
+    position: relative;
+    left: 78px;
+    width: 90%;
+    height: 437px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.text {
+    /* border: 1px solid black; */
+    width: 65%;
+    height: 23%;
+    position: relative;
+    bottom: 140px;
+    align-items: center;
+}
+
+#text1 {
+    color: rgb(95, 94, 94);
+    font-weight: bolder;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 370px;
+    width: fit-content;
+
+}
+
+#text2 {
+    width: fit-content;
+    font-size: 50px;
+    /* border: 1px solid black; */
+    font-weight: lighter;
+    left: 244px;
+    position: relative;
+    top: 20px;
+
+}
+
+#shop-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 60%;
+    top: 150px;
+}
+
+.shop-box {
+    width: 33.3%;
+    height: 100%;
+    /* border: 1px solid black; */
+
+    color: black;
+
+}
+
+.shop-logo {
+    width: 90%;
+    height: 50%;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-logo1,
+#img-logo2,
+#img-logo3 {
+    z-index: -1;
+    position: relative;
+    left: 10px;
+}
+
+#img-logo1 {
+    left: 5px;
+}
+
+.logo-title {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.shop-text {
+    width: 100%;
+    height: 35px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-btn {
+    width: 33.3%;
+    height: 58px;
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#s-btn1 {
+    width: 35%;
+    border-radius: 4px;
+    height: 100%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#s-btn2 {
+    width: 50%;
+    border-radius: 4px;
+    height: 100%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#s-btn3 {
+    width: 40%;
+    border-radius: 4px;
+    height: 100%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-btn:hover {
+    box-shadow: 0px 0px 5px black;
+}
+
+#img-know-more {
+    width: 100%;
+    height: 60%;
+    position: relative;
+    top: -50px;
+    background-image: url(./images/DI21_000048047.jpg);
+    background-size: cover;
+    
+}
+
+#img-know-more-in {
+    height: 100%;
+    width: 85.5%;
+
+    position: relative;
+    left: 107px;
+
+}
+
+#img-know-more-text {
+    color: white;
+    font-weight: lighter;
+    font-size: 50px;
+    position: relative;
+    top: 160px;
+}
+
+#img-know-more-btn {
+    width: 300px;
+    height: 55px;
+    border: 1px solid white;
+    position: relative;
+    top: 140px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#know-btn {
+    color: white;
+    font-weight: bold;
+}
+
+#img-know-more-btn:hover {
+    box-shadow: 0px 0px 5px white;
+}
+
+#continer2 {
+    height: 110vh;
+    width: 85.5%;
+
+    position: relative;
+    left: 107px;
+    top: 3px;
+}
+
+.cnt-car {
+    height: 45%;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 30px;
+    display: flex;
+}
+
+#cnt-car2 {
+    position: relative;
+    top: 70px;
+}
+
+#cnt-img {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100%;
+}
+
+#cnt-text {
+    /* border: 1px solid black; */
+    height: 80%;
+    width: 100%;
+    position: relative;
+    top: 73px;
+
+}
+
+#cnt-text-1 {
+    /* border: 1px solid black; */
+    height: 7%;
+
+}
+
+#cnt-t {
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    /* border: 1px solid black; */
+    color: rgb(101, 101, 101);
+    font-weight: 500;
+}
+
+#cnt-text-2 {
+    width: 97%;
+    height: fit-content;
+    /* border: 1px solid black; */
+    font-size: 50px;
+    font-weight: lighter;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+#cnt-text-3 {
+    width: 97%;
+    position: relative;
+    left: 20px;
+    /* border: 1px solid black; */
+    top: 25px;
+    font-weight: lighter;
+}
+
+#cnt-know-btn {
+    border: 1px solid black;
+    width: 201px;
+    height: 52px;
+    position: relative;
+    left: 20px;
+    top: 52px;
+    border-radius: 4px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cnt-know-btn1 {
+    color: black;
+    font-weight: bold;
+}
+
+#cnt-know-btn:hover {
+    box-shadow: 0px 0px 5px black;
+}
+
+#continer3 {
+    width: 85.5%;
+    height: 570px;
+    position: relative;
+    left: 107px;
+
+    top: 5px;
+}
+
+#cnt3-first,
+#cnt3-second,
+#nav {
+    width: 100%;
+    height: 82px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /* border: 1px solid black; */
+}
+
+#cnt3-first p {
+    color: black;
+}
+
+#cnt-text2:hover {
+    color: #0066B1;
+}
+
+#cnt3-second {
+    height: 402px;
+
+}
+
+#nav {
+    height: 79px;
+}
+#line{
+    border: 1px solid #F6F6F6;
+    width: 100%;
+    position: relative;
+    top: 10px;
+}
+#cnt-text1 {
+    font-size: 13px;
+
+}
+
+#cnt-text2 {
+    height: 60px;
+    width: 100%;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-weight: bold;
+}
+
+.cnt3-second {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.cnt3-text {
+
+    width: 25%;
+    height: 193px;
+    /* border: 1px solid black; */
+
+}
+
+.cnt3-text p {
+    color: rgb(92, 91, 91);
+    font-weight: bold;
+}
+
+.cnt3-text p:hover {
+    color: black;
+}
+
+.cnt3-text-line {
+
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: #262626;
+
+
+}
+
+#cnt3-text-line1 {
+
+    /* border: 1px solid black; */
+    color: rgb(92, 91, 91);
+    font-size: small;
+    position: relative;
+    font-weight: lighter;
+    top: -30px;
+
+}
+
+#cnt3-text-line2 {
+    position: relative;
+    top: -20px;
+
+}
+
+#cnt3-text-line3 {
+    position: relative;
+    top: -10px;
+
+}
+
+#cnt3-text-line4 {
+    position: relative;
+    top: 0px;
+
+}
+
+#cnt3-text-line5 {
+    position: relative;
+    top: 10px;
+
+}
+
+#cnt3-text-line6 {
+    position: relative;
+    top: 19px;
+
+}
+
+#cnt3-logos {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    height: 47px;
+    display: flex;
+    justify-content: space-between;
+
+    bottom: 20px;
+
+}
+
+#color {
+    width: 1503px;
+    height: 400px;
+    position: relative;
+    top: -483px;
+    background-color: #F6F6F6;
+    z-index: -1;
+
+
+}
+
+.cnt3-logo {
+    width: 30px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#logo-fb,
+#logo-insta,
+#logo-yt,
+#logo-in,
+#logo-tw {
+    width: fit-content;
+    height: fit-content;
+}
+
+#cnt3-last1 {
+    width: 965px;
+    height: 100%;
+
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    font-size: 13.5px;
+}
+
+#cnt3-last2 {
+    width: 380px;
+    height: 100%;
+
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#logo-rotate {
+    rotate: 45deg;
+    ;
+}
+
+#cnt3-last2 p:hover {
+    color: #0066B1;
+}
